@@ -1,0 +1,3 @@
+h1 = @article[:title]
+small: em Published #{Date.strptime(@article[:published]).strftime('%B %e, %Y')}
+== markdown(@article[:body])

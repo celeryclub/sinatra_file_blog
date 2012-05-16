@@ -1,0 +1,1 @@
+A simple proof-of-concept file-based blog setup written in Sinatra. Takes markdown articles in the form **"yyyy-mm-dd~slug~Title.md"**. Inspired by [camerondaigle.com/articles/from_expressionengine_to_sinatra_and_heroku](http://camerondaigle.com/articles/from_expressionengine_to_sinatra_and_heroku)

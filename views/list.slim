@@ -1,0 +1,7 @@
+h1 Articles
+ul
+  - @articles.each do |article|
+    li: h4
+      a[href="/articles/#{article[:slug]}"] = article[:title]
+      '
+      small: em (#{Date.strptime(article[:published]).strftime('%b %e, %Y')})
